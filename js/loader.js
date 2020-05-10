@@ -37,7 +37,7 @@ O),s=s.replace(Q,""),g.jsExtRegExp.test(s)&&(s=I),q.deps=q.deps?q.deps.concat(s)
 
 
 tbquire.config({
-	baseUrl: 'https://cdn.jsdelivr.net/gh/mchehe/igeqi@latest/js',
+	baseUrl: jsui.uri + '/js',
 	urlArgs: 'ver=' + jsui.ver,
 	paths: {
 		'swiper'        : 'libs/swiper.min',
