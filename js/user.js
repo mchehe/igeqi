@@ -79,7 +79,7 @@ return {
 			rp_comment = /^#comment/,
 			rp_like = /^#like/,
 
-			ajax_url = jsui.uri+'/action/user.php',
+			ajax_url = jsui.posturi + '/action/user.php',
 
 			_msg = {
 				// 1-2位：类型；3-4位：01-69指客户端操作提示，71-99指服务端操作提示

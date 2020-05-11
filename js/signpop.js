@@ -119,7 +119,7 @@ return {
 
             $.ajax({  
                 type: "POST",  
-                url:  'https://www.igeqi.com/wp-content/themes/dux/action/log.php',  
+                url:  jsui.posturi + '/action/log.php',  
                 data: inputs,  
                 dataType: 'json',
                 success: function(data){  
