@@ -37,7 +37,7 @@ O),s=s.replace(Q,""),g.jsExtRegExp.test(s)&&(s=I),q.deps=q.deps?q.deps.concat(s)
 
 
 tbquire.config({
-	baseUrl: jsui.uri + '/js',
+	baseUrl: jsui.cdnuri + '/js',
 	urlArgs: 'ver=' + jsui.ver,
 	paths: {
 		'swiper'        : 'libs/swiper.min',
