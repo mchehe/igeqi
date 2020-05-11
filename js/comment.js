@@ -40,7 +40,7 @@ return {
 	        $submit.attr('disabled', true).fadeTo('slow', 0.5);
 	        if (edit) $('#comment').after('<input type="text" name="edit_id" id="edit_id" value="' + edit + '" style="display:none;" />');
 	        $.ajax({
-	            url: jsui.uri + '/action/comment.php',
+	            url: 'https://www.igeqi.com/wp-content/themes/dux/action/comment.php',
 	            data: $(this).serialize(),
 	            type: $(this).attr('method'),
 	            error: function(request) {

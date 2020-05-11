@@ -521,7 +521,7 @@ if( $('.post-like').length ){
             }
 
             $.ajax({
-                url: jsui.uri + '/action/like.php',
+                url: 'https://www.igeqi.com/wp-content/themes/dux/action/like.php',
                 type: 'POST',
                 dataType: 'json',
                 data: {
